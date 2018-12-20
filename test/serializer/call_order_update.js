@@ -108,7 +108,7 @@ describe("call_order_update serialization", function() {
     describe("same as backend", function() {
         before(function() {
             return Apis.instance(
-                "wss://eu.nodes.bitshares.ws",
+                "wss://bts.liuye.tech:4443/ws",
                 true
             ).init_promise;
         });

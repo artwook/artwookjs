@@ -1,6 +1,8 @@
-# BitsharesJS (bitsharesjs)
+# ARTWOOKJS (artwookjs)
 
-Pure JavaScript Bitshares library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.
+Forked from bitsharesjs and customize for ARTWOOK
+
+Pure JavaScript ARTWOOK library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.
 
 Most of this code was written by [jcalfee](https://github.com/jcalfee), my work was mostly just repackaging to a discrete npm package.
 
@@ -12,7 +14,7 @@ Most of this code was written by [jcalfee](https://github.com/jcalfee), my work 
 
 This library can be obtained through npm:
 ```
-npm install bitsharesjs
+npm install artwookjs
 ```
 
 ## Usage

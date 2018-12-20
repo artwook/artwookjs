@@ -68,7 +68,7 @@ describe("issue13", function() {
             signatures: []
         };
         return Apis.instance(
-            "wss://bitshares.openledger.info/ws",
+            "wss://ws.gdex.top",
             true
         ).init_promise.then(() => {
             var b = ops.transaction.toBuffer(a);
