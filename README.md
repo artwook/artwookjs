@@ -6,8 +6,8 @@ Pure JavaScript ARTWOOK library for node.js and browsers. Can be used to constru
 
 Most of this code was written by [jcalfee](https://github.com/jcalfee), my work was mostly just repackaging to a discrete npm package.
 
-[![npm version](https://img.shields.io/npm/v/bitsharesjs.svg?style=flat-square)](https://www.npmjs.com/package/bitsharesjs)
-[![npm downloads](https://img.shields.io/npm/dm/bitsharesjs.svg?style=flat-square)](https://www.npmjs.com/package/bitsharesjs)
+[![npm version](https://img.shields.io/npm/v/artwookjs.svg?style=flat-square)](https://www.npmjs.com/package/artwookjs)
+[![npm downloads](https://img.shields.io/npm/dm/artwookjs.svg?style=flat-square)](https://www.npmjs.com/package/artwookjs)
 
 
 ## Setup
@@ -57,8 +57,8 @@ The Chain library contains a complete state container called the ChainStore. The
 The ChainStore has several useful methods to retrieve, among other things, objects, assets and accounts using either object ids or asset/account names. These methods are synchronous and will return `undefined` to indicate fetching in progress, and `null` to indicate that the object does not exist.
 
 ```
-import {Apis} from "bitsharesjs-ws";
-var {ChainStore} = require("bitsharesjs");
+import {Apis} from "artwookjs-ws";
+var {ChainStore} = require("artwookjs");
 
 Apis.instance("wss://bitshares.openledger.info/ws", true).init_promise.then((res) => {
     console.log("connected to:", res[0].network);
@@ -82,7 +82,7 @@ The ECC library contains all the crypto functions for private and public keys as
 As a quick example, here's how to generate a new private key from a seed (a brainkey for example):
 
 ```
-var {PrivateKey, key} = require("bitsharesjs");
+var {PrivateKey, key} = require("artwookjs");
 
 let seed = "THIS IS A TERRIBLE BRAINKEY SEED WORD SEQUENCE";
 let pkey = PrivateKey.fromSeed( key.normalize_brainKey(seed) );
