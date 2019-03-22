@@ -9,6 +9,7 @@ Most of this code was written by [jcalfee](https://github.com/jcalfee), my work 
 [![npm version](https://img.shields.io/npm/v/artwookjs.svg?style=flat-square)](https://www.npmjs.com/package/artwookjs)
 [![npm downloads](https://img.shields.io/npm/dm/artwookjs.svg?style=flat-square)](https://www.npmjs.com/package/artwookjs)
 
+Security issues might be eligible for a bounty through the [HackTheDex](https://hackthedex.io) program.
 
 ## Setup
 
